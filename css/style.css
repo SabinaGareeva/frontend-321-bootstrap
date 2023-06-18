@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #121829;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+.movies{margin-top: 30px;}
+.card-movie {
+  background: rgba(32, 40, 62, 0.8);
+  backdrop-filter: blur(40px);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  max-width: 282px;
+  margin-bottom: 16px;
+}
+
+.card-image {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.img-movie {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.wishlist-rating {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  display: flex;
+  width: 60px;
+  padding: 6px 8px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  cursor: pointer;
+}
+
+.rating-text {
+  color: #FFAD49;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.movie-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #EBEEF5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  padding-left: 8px;
+}
+
+.suggest {
+  display: flex;
+  width: 137px;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.suggest-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #7B6EF6;
+}
+.already {
+  display: flex;
+  width: 174px;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+.already-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #37D8A7;
+}
+
+.not-find-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #767E94;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+.suggest-button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  background-color: #7B6EF6;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 160px;
+
+}
+.mb-72px{margin-bottom: 72px;}
+.flex{display: flex;
+justify-content: center;}
