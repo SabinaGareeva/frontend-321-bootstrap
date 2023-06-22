@@ -70,8 +70,8 @@ p {
 
 .suggest {
   display: flex;
-  width: 137px;
-  justify-content: space-between;
+  width: 174px;
+  justify-content: start;
   text-align: center;
   margin-bottom: 24px;
   padding-left: 8px;
@@ -84,22 +84,16 @@ p {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #7B6EF6;
+  margin-left: 8px;
 }
-.already {
-  display: flex;
-  width: 174px;
-  justify-content: space-between;
-  text-align: center;
-  margin-bottom: 24px;
-  padding-left: 8px;
-  cursor: pointer;
-}
+
 .already-text {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #37D8A7;
+  margin-left: 8px;
 }
 
 .not-find-text {
